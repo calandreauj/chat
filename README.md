@@ -19,15 +19,15 @@ Allumer les deux datacenters
 
 ### Fonctionnalités
 
-> chat en ligne
-> notification de rédaction 
-> affichage des messages précédents
+#### chat en ligne
+#### notification de rédaction 
+#### affichage des messages précédents
 
 ### à venir
 
-> identification
-> mails
-> redondance
+#### identification
+#### mails
+#### redondance
 
 ### Installation
 
