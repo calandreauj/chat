@@ -17,6 +17,18 @@ L’utilisateur aura la possibilité de se déconnecter, et de changer son mot d
 
 Allumer les deux datacenters
 
+### Fonctionnalités
+
+> chat en ligne
+> notification de rédaction 
+> affichage des messages précédents
+
+### à venir
+
+> identification
+> mails
+> redondance
+
 ### Installation
 
 npm install
