@@ -53,7 +53,7 @@ io.on('connection', function (socket) {
     if (loggedUser !== undefined) {
       // Broadcast d'un 'service-message'
       var serviceMessage = {
-        text: 'User "' + loggedUser.username + '" disconnected',
+        text: 'Utilisateur "' + loggedUser.username + '" deconnecte',
         type: 'logout'
       };
       socket.broadcast.emit('service-message', serviceMessage);
@@ -91,11 +91,11 @@ io.on('connection', function (socket) {
       users.push(loggedUser);
       // Envoi et sauvegarde des messages de service
       var userServiceMessage = {
-        text: 'You logged in as "' + loggedUser.username + '"',
+        text: 'Vous êtes connecte en tant que "' + loggedUser.username + '"',
         type: 'login'
       };
       var broadcastedServiceMessage = {
-        text: 'User "' + loggedUser.username + '" logged in',
+        text: 'Utilisateur "' + loggedUser.username + '" connecte',
         type: 'login'
       };
       socket.emit('service-message', userServiceMessage);
