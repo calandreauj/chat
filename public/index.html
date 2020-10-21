@@ -2,7 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="style.css" />
-    <title>Socket.IO chat</title>
+    <title>SAP-Chat</title>
     <style>
     </style>
   </head>
@@ -15,18 +15,18 @@
           </span> { message.text }
         </li>
       </ul><ul id="users">
-        <li rv-each-user="users" class="new" rv-id="user.username">{ user.username } <span class="typing" rv-show="user.typing">typing</span></li>
+        <li rv-each-user="users" class="new" rv-id="user.username">{ user.username } <span class="typing" rv-show="user.typing">est en train d'écrire...</span></li>
       </ul>
       <form action="">
-        <input id="m" autocomplete="off" /><button>Send</button>
+        <input id="m" autocomplete="off" /><button>Envoyer</button>
       </form>
     </section>
     <section id="login">
       <form action="">
-        <label for="u">Username</label>
+        <label for="u">Nom d'utilisatuer</label>
         <input id="u" autocomplete="off" autofocus />
         <p>
-          <button>Login</button>
+          <button>Se connecter</button>
         </p>
       </form>
     </section>
